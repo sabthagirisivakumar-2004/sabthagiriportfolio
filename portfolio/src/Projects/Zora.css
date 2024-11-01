@@ -1,0 +1,27 @@
+.project{
+    color: snow;
+    position: absolute;
+    top:1300px;
+    left:670px;
+    
+}
+.dot1{
+
+    border-style:none;
+    border-top:dotted;
+     width:9%;
+     border-width:5px;
+  border-color:snow;
+  position: absolute;
+  top:1250px;
+  left:680px;   
+  }
+  .project-container{
+    position:absolute;
+    top:1400px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px 70px;
+  }

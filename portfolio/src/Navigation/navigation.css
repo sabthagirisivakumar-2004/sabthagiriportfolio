@@ -1,0 +1,169 @@
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  font-style: normal;
+  color: snow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.centerpart {
+  position: absolute;
+  top: 37px;
+  left: 923px;
+}
+.nav1 {
+  text-decoration: none;
+  position: absolute;
+  bottom: -36px;
+  right: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #adadad;
+
+  padding: 15px;
+}
+.nav1:hover {
+  text-decoration: none;
+  position: absolute;
+  right: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+.nav2 {
+  text-decoration: none;
+  position: absolute;
+  bottom: -36px;
+  right: 255px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #adadad;
+  padding: 15px;
+}
+.nav2:hover {
+  text-decoration: none;
+  position: absolute;
+  bottom: -36px;
+  right: 255px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+.nav3 {
+  text-decoration: none;
+  position: absolute;
+  bottom: -36px;
+  padding: 15px;
+  right: 118px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #adadad;
+}
+.nav3:hover {
+  text-decoration: none;
+  position: absolute;
+  bottom: -36px;
+  padding: 15px;
+  right: 118px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+.nav4 {
+  text-decoration: none;
+  position: absolute;
+  padding: 15px;
+  bottom: -36px;
+  left: -90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #adadad;
+}
+.nav4:hover {
+  text-decoration: none;
+  position: absolute;
+  padding: 15px;
+  bottom: -36px;
+  left: -90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+.nav5 {
+  text-decoration: none;
+  position: absolute;
+  padding: 15px;
+  bottom: -36px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #adadad;
+}
+.nav5:hover {
+  text-decoration: none;
+  position: absolute;
+  padding: 15px;
+  bottom: -36px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+.Glowsticky {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  color: snow;
+  border-radius: 25px;
+  background: blue;
+  font-style: bold;
+
+  top: 25px;
+  left: 1290px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  border: none;
+  &:hover {
+    animation: glow 1s ease-in infinite;
+  }
+
+  &::before {
+    animation: glow 1s ease-in infinite;
+    background: blue;
+    border-radius: inherit;
+    content: "";
+    filter: blur(10px);
+    opacity: 0.75;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    filter: blur(20px);
+    opacity: 1;
+  }
+}
+@keyframes glow {
+  0% {
+    background: blue;
+  }
+  25% {
+    background: blue;
+  }
+  100% {
+    background: blue;
+  }
+}

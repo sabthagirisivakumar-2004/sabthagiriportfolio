@@ -1,0 +1,42 @@
+[
+
+    {
+        "name":"ZORA APP",
+        "img":"https://graph.org/file/456ddceee4655980b6a54.jpg" , 
+        "description":"Discover the latest trends and elevate your style with ZORA, your ultimate fashion companion. Browse curated collections, get personalized recommendations, and shop your favorite brands all in one place. Stay stylish, stay ahead.",
+        "link":"https://www.behance.net/gallery/188899911/Zoro"
+    },
+    {
+        "name":"WAKE UP",
+        "img":"https://graph.org/file/888c6c59ef5e4ab520ecb.jpg" , 
+        "description":"Master the art of design with WAKE UP. Learn UI/UX principles, explore interactive tutorials, and enhance your skills with hands-on projects. Perfect for beginners and professionals aiming to excel in the design world",
+        "link":"https://www.behance.net/gallery/187766985/WAKEUP-Learn-UIUX-Design"
+    },
+    {
+        "name":"EcoPro",
+        "img":"https://graph.org/file/300c569f5ec71314ac912.jpg" , 
+        "description":"Meet ECOPRO, your go-to app for sustainable home management. Track your energy usage, reduce waste, and adopt eco-friendly practices with ease. Make your home greener and more efficient with ECOPRO.",
+        "link":"https://www.behance.net/gallery/192082637/EcoPro"
+    },
+    {
+        "name":"PetC",
+        "img":"https://graph.org/file/e0d543f513db23e717717.jpg" , 
+        "description":"Introducing PetC – your all-in-one app for pet care. Easily buy groceries, find trusted pet sitters, and connect with top vets. Everything your pet needs, all in one place.",
+        "link":"https://www.behance.net/gallery/194444811/PETCARE-APP"
+
+    },
+    {
+        "name":"TO-DO Application",
+        "img":"https://graph.org/file/db0c19821e918d7b5c50e.jpg" , 
+        "description":"Stay organized and boost productivity with To-DO. Create tasks, set deadlines, and track your progress effortlessly. Simplify your life and get things done with TO-DO.",
+        "link":"https://github.com/sabthagirisivakumar-2004/TodoApplication.git"
+
+    },
+    {
+        "name":"BusinessConsultancyAgency",
+        "img":"https://graph.org/file/7e45a6cb3c20771286833.jpg" , 
+        "description":"Unlock your business potential with BussinessConsultancyAgency. Our expert consultants provide tailored solutions to drive growth, enhance efficiency, and achieve your strategic goals. Partner with us for success.",
+        "link":"https://github.com/sabthagirisivakumar-2004/BusinessConsultancyPage.git"
+
+    }
+]

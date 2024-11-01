@@ -1,0 +1,29 @@
+.aboutp{
+    color: snow;
+    position: absolute;
+    top:820px;
+    left: 290px;
+   
+    line-height: 36px ;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 25px;
+    font-weight:300;
+}
+.dot{
+
+    border-style:none;
+    border-top:dotted;
+     width:9%;
+     border-width:5px;
+  border-color:snow;
+  position: absolute;
+  top:700px;
+  left:680px;   
+  }
+h1{
+    color: snow;
+    position: absolute;
+    top:750px;
+    left:670px;
+    
+}

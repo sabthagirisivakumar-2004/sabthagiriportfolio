@@ -1,0 +1,26 @@
+.services {
+  color: snow;
+  position: absolute;
+  top: 2430px;
+  left: 680px;
+}
+.dot2 {
+  border-style: none;
+  border-top: dotted;
+  width: 9%;
+  border-width: 5px;
+  border-color: snow;
+  position: absolute;
+  top: 2390px;
+  left: 680px;
+}
+.Service-Container {
+  position: absolute;
+  top: 2530px;
+  left: -10px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 30px 120px;
+}
